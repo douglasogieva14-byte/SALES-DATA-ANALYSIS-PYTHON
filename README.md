@@ -46,18 +46,6 @@ Total yearly sales rose from about ₦61.7M in 2019 to ₦94.0M in 2023 (roughly
 - **Wholesale is the growth engine.** It is the largest channel and grew fastest, so distributor relationships deserve priority.
 - **Returns need a closer look.** Kaduna Central has the most returned or defective units, but it also has the highest sales. A returns rate (returns divided by units sold) is the right next measure before deciding whether there is a real quality issue.
 
-## Possible next steps
-
-- Calculate returns as a percentage of units sold, by branch and by product
-- Add a monthly trend to look for seasonality
-- Analyse discounts and payment methods, which are in the data but not yet used
-
-## How to run
-
-1. Install the requirements: `pip install pandas matplotlib jupyter`
-2. Download or clone this repository (the dataset `Python Project Data.csv` is included, so no extra download is needed)
-3. Open `Sales_Data_Analysis_Report.ipynb` in Jupyter from the same folder and run all cells
-
 ## About the data
 
 The dataset was provided for a training project and is believed to be synthetic. It contains 13 columns: date, branch, product, package size, quantity sold, unit price, total sales, channel, distributor or customer, payment method, discount applied, returned or defective units, and sales rep or territory. Dates are in day/month/year format.
@@ -74,4 +62,4 @@ Data loading and cleaning checks, grouping and aggregation, ranking and growth c
 
 ## Contact
 
-**Douglas Ogieva** | Benin City, Nigeria | [LinkedIn](https://www.linkedin.com/in/douglasogieva) | [Email](mailto:douglasogieva14@gmail.com)
+**Douglas Ogieva** | [LinkedIn](https://www.linkedin.com/in/douglasogieva) | [Email](mailto:douglasogieva14@gmail.com)
